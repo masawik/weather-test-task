@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>прогноз погоды на 5 дней</title>
+</head>
+<style>
+  .app {
+    text-align: center;
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+  .js-title,
+  .js-max,
+  .js-avg {
+    display: none;
+  }
+</style>
+
+<body>
+  <div class="app js-app">
+    <h1 class="js-loading">Загрузка...</h1>
+    <h2 class="js-title">температура с 6ч до 12ч за предстоящие 5 дней</h2>
+    <p class="js-max">максимальная: </p>
+    <p class="js-avg">средняя: </p>
+  </div>
+<script src="./js/index.js"></script>
+</body>
+</html>
